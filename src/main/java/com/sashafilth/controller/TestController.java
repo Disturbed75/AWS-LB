@@ -12,7 +12,7 @@ public class TestController {
 
     @GetMapping("/hello")
     public String hello() {
-        String message = "Hello AWS";
+        String message = "Hello AWS nosok";
         try {
             InetAddress ip = InetAddress.getLocalHost();
             message += " From host: " + ip;
